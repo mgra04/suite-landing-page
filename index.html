@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="media.css" />
+
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="nav-elements">
+        <li class="nav-element">
+          <img src="./assets/logo.svg" alt="logo" class="logo-img" />
+        </li>
+        <li class="nav-element">
+          <button class="btn-outline">Request Beta Access</button>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="first-el">
+        <h1 class="heading">
+          A <span class="bold relative">super solution</span> for your
+          <span class="bold">business.</span>
+        </h1>
+        <img
+          src="./assets/pattern-curved-line-1.svg"
+          alt="line vector"
+          class="line__1"
+        />
+        <p class="hero-description">
+          Our marketing and sales automations help you scale your outreach to
+          get more leads for your company.
+        </p>
+        <button class="btn-fill">Request Beta Access</button>
+      </div>
+      <div class="second-el">
+        <picture>
+          <source
+            srcset="./assets/image-hero-landscape@2x.webp"
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="./assets/image-hero-portrait@2x.webp"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="./assets/image-hero-landscape@2x.webp"
+            alt="half phone in perspective on gradient background"
+            class="hero-img"
+          />
+        </picture>
+      </div>
+      <div class="third-el">
+        <div class="elements">
+          <h2 class="number">2K+</h2>
+          <p class="uppercase-text clr__grey">Companies</p>
+        </div>
+
+        <div class="elements">
+          <h2 class="number">8</h2>
+          <p class="uppercase-text clr__grey">Languages</p>
+        </div>
+
+        <div class="elements">
+          <h2 class="number">1.2M</h2>
+          <p class="uppercase-text clr__grey">Leads</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="testimonials">
+        <div class="testimonial-content">
+          <div class="img-box">
+            <picture>
+              <source
+                srcset="./assets/image-jeremy-small@2x.webp"
+                media="(max-width: 787px)"
+              />
+              <source
+                srcset="./assets/image-jeremy-large@2x.webp"
+                media="(min-width: 768px)"
+              />
+              <img
+                src="./assets/image-jeremy-large@2x.webp"
+                alt="man in orange polo shirt holding phone"
+                class="testimonial-img"
+              />
+            </picture>
+          </div>
+
+          <img
+            src="./assets/pattern-curved-line-2.svg"
+            alt="curved line"
+            class="line__2"
+          />
+
+          <h2 class="secondary-heading">
+            It just <span class="bold">works.</span>
+          </h2>
+
+          <p class="testimonial-description">
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+
+          <div class="author-details">
+            <h3 class="author-name">Jeremy Robinson</h3>
+            <p class="uppercase-text clr__cream">CMO, Fylo</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content">
+        <img src="./assets/logo.svg" alt="logo" class="logo-img" />
+        <p class="copyright-text">Copyright - Suite</p>
+        <ul class="social-media-links">
+          <li class="link">
+            <a href="#"
+              ><img
+                src="./assets/icon-facebook.svg"
+                alt="facebook icon"
+                class="social-img"
+            /></a>
+          </li>
+          <li class="link">
+            <a href="#"
+              ><img
+                src="./assets/icon-twitter.svg"
+                alt="twitter icon"
+                class="social-img"
+            /></a>
+          </li>
+          <li class="link">
+            <a href="#"
+              ><img
+                src="./assets/icon-instagram.svg"
+                alt="instagram icon"
+                class="social-img"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
